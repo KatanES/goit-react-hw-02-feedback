@@ -1,6 +1,3 @@
-import { Component } from 'react';
-// import { StatisticsList } from './StatisticsList';
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
