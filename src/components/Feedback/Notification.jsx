@@ -1,3 +1,8 @@
+import { Notific, NotificDiv } from './Feedback.styled';
 export const Notification = ({ message }) => {
-  return <p>{message}</p>;
+  return (
+    <NotificDiv>
+      <Notific>{message}</Notific>
+    </NotificDiv>
+  );
 };

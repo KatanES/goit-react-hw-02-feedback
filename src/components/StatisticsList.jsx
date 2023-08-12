@@ -7,9 +7,9 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <p>Good: {good}</p>
-      <p>Neutral: {neutral}</p>
-      <p>Bad: {bad}</p>
+      <p>Good: {good} &#x1F601; </p>
+      <p>Neutral: {neutral} &#x1F916;</p>
+      <p>Bad: {bad} &#x1F632; </p>
       <p>Total Feedback: {total}</p>
       <p>Positive Feedback Percentage: {positivePercentage}%</p>
     </div>
